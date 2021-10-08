@@ -8,3 +8,5 @@ https://www.youtube.com/watch?v=H2GCkRF9eko&t=260s
 npm i express pg pg-hstore sequelize cors dotenv
 //--- установка зависимостей только для разработки в \server>
 npm i -D nodemon
+//--- скрипт для запуска сервера в файле package.json
+"dev": "nodemon index.js"
