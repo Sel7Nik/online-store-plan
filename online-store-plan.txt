@@ -21,3 +21,8 @@ app.listen(PORT, () => callback)
 npm run dev
 //---выводится сообщение при удачном запуске
 START SERVER ON PORT 5000
+//--- имппорт config из 'dotenv'
+require('dotenv').config()
+//--- создать файл .env
+//--- получение значений через окружение
+const PORT = process.env.PORT || 5000;
