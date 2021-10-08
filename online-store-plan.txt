@@ -15,5 +15,9 @@ npm i -D nodemon
 const express = require('express')
 //--- создание объекта вызовом функции express
 const app = express();
-// вызов метода listen
+//---вызов метода listen
 app.listen(PORT, () => callback)
+//---запуск сервера
+npm run dev
+//---выводится сообщение при удачном запуске
+START SERVER ON PORT 5000
