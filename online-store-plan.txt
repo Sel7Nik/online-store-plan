@@ -13,3 +13,7 @@ npm i -D nodemon
 //---структура приложения
 //--- импорт модуля express
 const express = require('express')
+//--- создание объекта вызовом функции express
+const app = express();
+// вызов метода listen
+app.listen(PORT, () => callback)
