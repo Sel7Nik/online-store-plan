@@ -1,5 +1,6 @@
 // require('dotenv').config();
 require('dotenv').config();
+const sequelize = require('./db');
 
 const express = require('express');
 // import express from 'express';
