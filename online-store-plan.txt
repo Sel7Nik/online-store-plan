@@ -6,3 +6,5 @@ https://www.youtube.com/watch?v=H2GCkRF9eko&t=260s
 в терминале \server> npm init -y 
 //--- установка зависимостей в \server> 
 npm i express pg pg-hstore sequelize cors dotenv
+//--- установка зависимостей только для разработки в \server>
+npm i -D nodemon
