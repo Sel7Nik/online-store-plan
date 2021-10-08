@@ -1,1 +1,8 @@
 npm init -y
+04:20 -      [BACKEND] - Начало
+https://www.youtube.com/watch?v=H2GCkRF9eko&t=260s
+создать index.js
+//--- инициализировать проект BACKEND
+в терминале \server> npm init -y 
+//--- установка зависимостей в \server> 
+npm i express pg pg-hstore sequelize cors dotenv
