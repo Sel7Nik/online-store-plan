@@ -10,3 +10,6 @@ npm i express pg pg-hstore sequelize cors dotenv
 npm i -D nodemon
 //--- скрипт для запуска сервера в файле package.json
 "dev": "nodemon index.js"
+//---структура приложения
+//--- импорт модуля express
+const express = require('express')
