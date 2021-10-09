@@ -120,3 +120,7 @@ const cors = require('cors')
 app.use(cors())
 //---express.json()
 app.use(express.json())
+//--- создание пробноно get запроса
+app.get('/', (req, res) => {
+  res.status(200).json({ message: 'WORKING!!!' });
+});
