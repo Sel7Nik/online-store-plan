@@ -206,3 +206,5 @@ class UserController {
 module.exports = new UserController();
 //-- импортируем в роутеры соответствующие контроллеры
 const userController = require('../controllers/userController')
+//--- в каждом роутере для всех типов router 
+//---вторым параметром указываем соответствующий метод из controllers
