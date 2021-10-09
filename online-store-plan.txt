@@ -90,3 +90,9 @@ Brand
 Rating
 DeviceInfo
 TypeBrand
+//--- описание связей между таблицами >>  hasOne  ||  hasMany
+User.hasOne(Basket)
+Basket.belongsTo(User)
+//---
+User.hasMany(Rating)
+Rating.belongsTo(User)
