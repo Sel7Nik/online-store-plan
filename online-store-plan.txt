@@ -57,3 +57,9 @@ module.exports = new Sequelize(
 );
 //--- импорт объекта модуля из db.js в index.js
 const sequelize = require('./db');
+// вызов асинхронной функции для подключения к БД
+const start = async () => {
+  try {
+  } catch (e) {}
+};
+// sequelize.authenticate();
