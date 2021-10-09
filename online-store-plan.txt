@@ -192,3 +192,16 @@ userController.js
 brandController.js
 typeController.js
 deviceController.js
+//
+//--- >> UserController
+//--- три соответствующих функции и экспорт объекта
+class UserController {
+  async registration(req, res) {}
+
+  async login(req, res) {}
+
+  async check(req, res) {}
+}
+
+module.exports = new UserController();
+
