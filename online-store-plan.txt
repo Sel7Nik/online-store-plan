@@ -143,6 +143,7 @@ typeRouter.js
 const Router = require('express');
 //--- и создаем объект этого роутера
 const router = new Router();
+//
 //--- для файла userRouter
 //--- создаем Router
 const Router = require('express')
@@ -155,4 +156,14 @@ router.post('/login', userController.login)
 //--- проверка авторизации
 router.get('/auth', authMiddleware, userController.check)
 //--- export 
+module.exports = router
+//
+//--- для файла brandRouter
+const Router = require('express')
+const router = new Router()
+//--- создание бренда
+router.post('/', brandController.create)
+//--- получение всех брендов
+router.get('/', brandController.getAll)
+//--- 
 module.exports = router
