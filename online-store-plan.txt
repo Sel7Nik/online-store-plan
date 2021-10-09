@@ -50,7 +50,7 @@ module.exports = new Sequelize(
   process.env.DB_USER,
   process.env.DB_PASSWORD,
   {
-    dialect: 'postgress',
+    dialect: 'postgres',
     host: process.env.DB_HOST,
     port: process.env.DB_PORT,
   }
@@ -63,3 +63,17 @@ const start = async () => {
   } catch (e) {}
 };
 // sequelize.authenticate();
+//    await sequelize.sync();
+
+////////////////////////////////////////////////
+11:30 -      [BACKEND] - Строим диаграмму базы данных
+https://www.youtube.com/watch?v=H2GCkRF9eko&t=690s
+
+//////////////////////////////////////////////////
+16:50 -      [BACKEND] - Модели данных и связи между ними
+//--- создание папки models и файла models.js
+//--- перенос структуры БД в model создание связей
+//--- импорт sequelize из db.js в module.js
+const {sequelize} = require('db.js')
+//--- импорт из самого sequelize класс DataTypes
+const {DataTypes} = require('sequelize')
