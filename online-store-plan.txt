@@ -139,3 +139,6 @@ userRouter.js
 deviceRouter.js
 brandRouter.js
 typeRouter.js
+//--- в index.js создаем Router
+const Router = require('express');
+//--- и создаем объект этого роутера
