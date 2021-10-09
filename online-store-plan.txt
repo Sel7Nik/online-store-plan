@@ -112,3 +112,6 @@ module.exports = {
 const models = require('./models/models')
 // запуск >> start()
 DB_USER = postgres // <- DB_USER = user
+//--- настройка cors
+//--- import
+const cors = require('cors')
