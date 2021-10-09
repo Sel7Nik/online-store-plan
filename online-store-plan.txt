@@ -169,3 +169,4 @@ router.get('/', brandController.getAll)
 module.exports = router
 //--- аналогично для typeRouter
 //--- для deviceRouter
+//--- импортируем все созданные роутеры в routes/index.js
