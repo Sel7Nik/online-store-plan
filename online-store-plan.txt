@@ -124,3 +124,18 @@ app.use(express.json())
 app.get('/', (req, res) => {
   res.status(200).json({ message: 'WORKING!!!' });
 });
+//--- в браузере по http://localhost:7000/
+//--- выведется сообщение
+"WORKING!!!"
+//--- дальнейшее тестирование через Postman
+
+////////////////////////////////////////////////
+25:30 -      [BACKEND] - Роутинг и эндпоинты
+//---
+// создание структуры папок и файлов
+routes
+index.js
+userRouter.js
+deviceRouter.js
+brandRouter.js
+typeRouter.js
