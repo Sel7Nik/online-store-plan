@@ -177,3 +177,5 @@ router.use('/brand', brandRouter)
 router.use('/device', deviceRouter)
 // export 
 module.exports = router
+//--- импортируем основной роутев в index.js
+const router = require('./routes/index')
