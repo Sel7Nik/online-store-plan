@@ -96,3 +96,4 @@ Basket.belongsTo(User)
 //---
 User.hasMany(Rating)
 Rating.belongsTo(User)
+//--- export all modules
