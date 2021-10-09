@@ -142,3 +142,17 @@ typeRouter.js
 //--- в index.js создаем Router
 const Router = require('express');
 //--- и создаем объект этого роутера
+const router = new Router();
+//--- для файла userRouter
+//--- создаем Router
+const Router = require('express')
+//--- и создаем объект этого роутера
+const router = new Router()
+//--- метод регистрации
+router.post('/registration', userController.registration)
+//--- метод авторизации
+router.post('/login', userController.login)
+//--- проверка авторизации
+router.get('/auth', authMiddleware, userController.check)
+//--- export 
+module.exports = router
