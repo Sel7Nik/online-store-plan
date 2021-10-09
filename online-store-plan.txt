@@ -170,3 +170,8 @@ module.exports = router
 //--- аналогично для typeRouter
 //--- для deviceRouter
 //--- импортируем все созданные роутеры в routes/index.js
+//--- сопоставляем маршруты с соответствующем роутером
+router.use('/user', userRouter)
+router.use('/type', typeRouter)
+router.use('/brand', brandRouter)
+router.use('/device', deviceRouter)
