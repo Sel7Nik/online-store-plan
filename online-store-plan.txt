@@ -181,3 +181,7 @@ module.exports = router
 const router = require('./routes/index')
 //--- задаём в use путь и сам router
 app.use('/api', router)
+//--- проверяем маршруты
+router.get('/auth', (req, res) => {
+  res.json({ message: 'ALL OK !!!' });
+});
