@@ -82,3 +82,11 @@ const {DataTypes} = require('sequelize')
 //--- второй- объект описание структуры полей таблицы
 id: { type: DataTypes.INTEGER, primaryKey: true, autoIncrement: true },
 //--- и так далее всех полей всех таблиц
+User
+BasketDevice
+Device
+Type
+Brand
+Rating
+DeviceInfo
+TypeBrand
