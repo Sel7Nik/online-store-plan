@@ -168,3 +168,4 @@ router.get('/', brandController.getAll)
 //--- 
 module.exports = router
 //--- аналогично для typeRouter
+//--- для deviceRouter
