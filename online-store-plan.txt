@@ -208,3 +208,8 @@ module.exports = new UserController();
 const userController = require('../controllers/userController')
 //--- в каждом роутере для всех типов router 
 //---вторым параметром указываем соответствующий метод из controllers
+//--- еще одна проверка
+async check(req, res) {
+    const query = req.query;
+    res.json(query.id);
+  }
