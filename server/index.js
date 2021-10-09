@@ -4,6 +4,7 @@ const sequelize = require('./db');
 
 const express = require('express');
 // import express from 'express';
+const models = require('./models/models');
 const PORT = process.env.PORT || 5000;
 
 const app = express();
