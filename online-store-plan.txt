@@ -77,3 +77,8 @@ https://www.youtube.com/watch?v=H2GCkRF9eko&t=690s
 const {sequelize} = require('db.js')
 //--- импорт из самого sequelize класс DataTypes
 const {DataTypes} = require('sequelize')
+//--- описание модели пользователя sequelize.define()
+//--- первый параметр имя модели >> user
+//--- второй- объект описание структуры полей таблицы
+id: { type: DataTypes.INTEGER, primaryKey: true, autoIncrement: true },
+//--- и так далее всех полей всех таблиц
