@@ -167,3 +167,4 @@ router.post('/', brandController.create)
 router.get('/', brandController.getAll)
 //--- 
 module.exports = router
+//--- аналогично для typeRouter
