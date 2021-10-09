@@ -204,4 +204,5 @@ class UserController {
 }
 
 module.exports = new UserController();
-
+//-- импортируем в роутеры соответствующие контроллеры
+const userController = require('../controllers/userController')
