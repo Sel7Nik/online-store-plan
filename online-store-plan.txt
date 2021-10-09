@@ -115,3 +115,8 @@ DB_USER = postgres // <- DB_USER = user
 //--- настройка cors
 //--- import
 const cors = require('cors')
+//---передаем в функцию app.use()
+//--- cors()
+app.use(cors())
+//---express.json()
+app.use(express.json())
