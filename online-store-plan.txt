@@ -110,3 +110,5 @@ module.exports = {
 };
 //--- import modules in the index.js
 const models = require('./models/models')
+// запуск >> start()
+DB_USER = postgres // <- DB_USER = user

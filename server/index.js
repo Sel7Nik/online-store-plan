@@ -15,6 +15,8 @@ const start = async () => {
       console.log(`START SERVER ON PORT ${PORT}`)
     );
   } catch (err) {
-    console.log(e);
+    console.log(err);
   }
 };
+
+start();
