@@ -185,3 +185,10 @@ app.use('/api', router)
 router.get('/auth', (req, res) => {
   res.json({ message: 'ALL OK !!!' });
 });
+//--- отделяем логику от роутера
+//--- создаем для каждого роутера контроллер
+//--- создаем папку controllers и контроллеры
+userController.js
+brandController.js
+typeController.js
+deviceController.js
